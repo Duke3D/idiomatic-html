@@ -27,17 +27,23 @@ This is a living document and new ideas are always welcome. Please contribute.
 “Part of being a good steward to a successful project is realizing that
 writing code for yourself is a bad idea. If thousands of people are using
 your code, then write your code for maximum clarity, not your personal
-preference of how to get clever within the spec.” — Idan Gazit.
+preference of how to get clever within the spec.”
+<br />
+— <b>Idan Gazit</b>.
 </blockquote>
 
 <blockquote>
 “Arguments over style are pointless. There should be a style guide,
-and you should follow it.” — Rebecca Murphey.
+and you should follow it.”
+<br />
+— <b>Rebecca Murphey</b>.
 </blockquote>
 
 <blockquote>
 “The only programming project with no disagreement whatsoever on code
-formatting is the one you work on alone.” — Jeff Atwood.
+formatting is the one you work on alone.”
+<br />
+— <b>Jeff Atwood</b>.
 </blockquote>
 
 * You are not a human code compiler/compressor, so don’t try to be one.
