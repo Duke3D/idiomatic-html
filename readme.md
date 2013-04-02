@@ -24,17 +24,17 @@ This is a living document and new ideas are always welcome. Please contribute.
 ## 1. General Principles
 
 <blockquote>
-“Part of being a good steward to a successful project is realizing that
-writing code for yourself is a bad idea. If thousands of people are using
-your code, then write your code for maximum clarity, not your personal
-preference of how to get clever within the spec.”
+“Part of being a good steward to a successful project is realizing that writing
+code for yourself is a bad idea. If thousands of people are using your code,
+then write your code for maximum clarity, not your personal preference of how
+to get clever within the spec.”
 <br />
 — <b>Idan Gazit</b>.
 </blockquote>
 
 <blockquote>
-“Arguments over style are pointless. There should be a style guide,
-and you should follow it.”
+“Arguments over style are pointless. There should be a style guide, and you
+should follow it.”
 <br />
 — <b>Rebecca Murphey</b>.
 </blockquote>
@@ -98,7 +98,7 @@ Example:
 </div>
 ```
 
-### Exceptions and Slight Deviations
+### 3.1. Exceptions and Slight Deviations
 
 Elements with multiple attributes can have attributes arranged across multiple
 lines in an effort to improve readability and produce more useful diffs.
@@ -122,9 +122,9 @@ HTML attributes should be listed in an order that reflects the fact that class
 names are the primary interface through which CSS and JavaScript select
 elements.
 
-1. `class`.
-2. `id`.
-3. `data-*`.
+1. Class: `class`.
+2. Id: `id`.
+3. Custom data: `data-*`.
 4. Everything else.
 
 Example:
@@ -158,7 +158,7 @@ Example with bad names:
 }
 
 .cb {
-  background: #bada55;
+  background: #333;
 }
 ```
 
@@ -174,7 +174,7 @@ Example with better names:
 }
 
 .column-body {
-  background: #bada55;
+  background: #333;
 }
 ```
 
@@ -251,8 +251,7 @@ Avoid this. __Be consistent__.
 Based on [Idiomatic HTML](//github.com/necolas/idiomatic-html).
 Inspired on [Idiomatic CSS](//github.com/necolas/idiomatic-css),
 [Idiomatic JavaScript](//github.com/rwldrn/idiomatic.js),
-[Google HTML/CSS Style Guide](//google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml),
-[Google JavaScript Style Guide](//google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml) &
+[Google HTML/CSS Style Guide](//google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml) &
 many others.
 
 
