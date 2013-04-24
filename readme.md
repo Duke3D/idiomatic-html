@@ -124,13 +124,14 @@ elements.
 
 1. Class: `class`.
 2. Id: `id`.
-3. Custom data: `data-*`.
-4. Everything else.
+3. Name: `name`
+4. Custom data: `data-*`.
+5. Everything else.
 
 Example:
 
 ````html
-<a class="[value]" id="[value]" data-name="[value]" href="[url]">[text]</a>
+<input class="[value]" id="[value]" name="[value]" data-name="[value]" type="[value]" />
 ````
 
 
